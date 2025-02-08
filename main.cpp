@@ -61,9 +61,8 @@ int main() {
     Neuronio* neuronio3 = new NeuronioReLU(pesos, bias);
 
     
-    double saida = neuronio3->predict(entradas);
-    cout << "Saída: " << saida << endl;
-
+    double saida3 = neuronio3->predict(entradas);
+    cout << "Caso 3 - Saída: " << saida3 << endl;
 
    // Liberar a memmoria__________________________________________________________________________________
     delete neuronio1;
